@@ -1,0 +1,46 @@
+{
+  "resources/components/BookPage.css": {
+    "file": "assets/BookPage-32d5d56f.css",
+    "src": "resources/components/BookPage.css"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app-64c17cb5.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app-67dcdfd2.css",
+    "src": "resources/sass/app.scss",
+    "isEntry": true
+  },
+  "resources/components/NotFound.vue": {
+    "file": "assets/NotFound-a9090517.js",
+    "src": "resources/components/NotFound.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/components/BookPage.vue": {
+    "file": "assets/BookPage-3f832ef2.js",
+    "src": "resources/components/BookPage.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/BookPage-32d5d56f.css"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-e0eaeda8.js",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/components/BookPage.vue",
+      "resources/components/NotFound.vue"
+    ],
+    "css": [
+      "assets/app-64c17cb5.css"
+    ]
+  }
+}
